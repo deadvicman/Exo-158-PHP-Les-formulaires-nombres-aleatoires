@@ -9,3 +9,9 @@
 
 http://php.net/manual/fr/function.mt-rand.php
 */
+?>
+
+<form action="resultat.php" method="post">
+    <input type="number" min="1" max="15" name="number" id="number" placeholder="Inséré un chiffre">
+    <input type="submit">
+</form>
